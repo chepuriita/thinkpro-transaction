@@ -20,7 +20,7 @@ pipeline {
     }
     stage('Docker Build') {
       steps {
-        sh '/usr/bin/docker build -t satheeshch/tthinkpro-transaction:latest .'
+        sh '/usr/bin/docker build -t satheeshch/thinkpro-transaction:latest .'
       }
     }
     stage('Push image') {
